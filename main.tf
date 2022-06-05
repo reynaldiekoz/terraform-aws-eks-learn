@@ -3,7 +3,7 @@
 module "modules" {
   source            = "./modules"
   aws_region        = "ap-southeast-1"
-  aws_profile       = "umam"
+  aws_profile       = "reynaldi"
   vpc_name          = "reynaldi-tf-test"
   vpc_cidr_block    = "10.0.0.0/16"
   public_subnets    = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
